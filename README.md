@@ -58,18 +58,18 @@ Python · TensorFlow / Keras · NumPy · Pillow · OpenCV · scikit-learn · Mat
 ## Project structure
 
 ```
-facemask-detection-app/
-├── app.py                  # Streamlit web app
-├── face_mask_model.h5      # trained model
-├── requirements.txt        # dependencies
+facemask-detection-app-cnn/
+├── app.py                   # Streamlit web app
+├── face_mask_model.keras    # trained model
+├── requirements.txt         # dependencies
 └── README.md
 ```
 
 ## Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/facemask-detection-app.git
-cd facemask-detection-app
+git clone https://github.com/Arshavir01/facemask-detection-app-cnn.git
+cd facemask-detection-app-cnn
 pip install -r requirements.txt
 streamlit run app.py
 ```
